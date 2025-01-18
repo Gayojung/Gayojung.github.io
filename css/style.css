@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-img {
+    width: 300px;
+    aspect-ratio: 1/1;
+    background-color: tomato;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    transition: all 600ms ease-in-out;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
